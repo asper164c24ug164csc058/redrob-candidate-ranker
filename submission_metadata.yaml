@@ -1,33 +1,33 @@
 # Redrob Hackathon — Submission Metadata
 # Fill in the [FILL IN] placeholders before pushing to GitHub / uploading to the portal.
 
-team_name: "[FILL IN — your team name]"
+team_name: "Tripple Innovators"
 
 primary_contact:
-  name: "[FILL IN — your full name]"
-  email: "[FILL IN — your email]"
-  phone: "[FILL IN — your phone number]"
+  name: "Rakshitha Sri S"
+  email: "rakshithasri766@gmail.com"
+  phone: "7010495825"
 
 team_members:
-  - name: "[FILL IN — Member 1 name]"
-    email: "[FILL IN — Member 1 email]"
-    role: "ML Engineer"
-  - name: "[FILL IN — Member 2 name, delete this line if solo]"
-    email: "[FILL IN — Member 2 email]"
-    role: "Data Engineer"
+  - name: "Saja Fathima A"
+    email: "sajafathima1101@gmail.com"
+    role: "Team Member"
+  - name: "Pradhiksha C"
+    email: "pradhikshachinnadurai143@gmail.com"
+    role: "Team Member"
 
-github_repo: "[FILL IN — https://github.com/YOUR_USERNAME/YOUR_REPO]"
+github_repo: "https://github.com/asper164c24ug164csc058/redrob-candidate-ranker"
 
 sandbox_link: "[FILL IN — your Colab notebook share link]"
 
 reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./submission.csv"
 
 compute:
-  platform: "[FILL IN — e.g. Windows laptop / college lab PC]"
+  platform: "Windows laptop"
   cpu_cores: 4
   ram_gb: 8
   python_version: "3.x"        # run `python --version` and paste it here
-  os: "[FILL IN — e.g. Windows 11]"
+  os: "Windows 11"
   uses_gpu_for_inference: false
   has_network_during_ranking: false
   pre_computation_required: false
