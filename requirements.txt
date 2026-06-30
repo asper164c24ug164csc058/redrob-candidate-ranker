@@ -1,0 +1,8 @@
+# rank.py itself uses only the Python standard library (json, csv, heapq,
+# re, argparse, gzip, datetime) — no external dependencies are needed to
+# reproduce the submission CSV, by design (keeps it trivially CPU-only and
+# fast inside the 5-minute / 16GB constraint).
+#
+# openpyxl is only needed for csv_to_xlsx.py, which converts the CSV to the
+# .xlsx format the submission portal asks for.
+openpyxl==3.1.5
